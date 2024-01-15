@@ -1,8 +1,6 @@
 # COMPROLARAVEL8
- Website Company Profile dengan Laravel 8. CMS ini dikembangkan oleh Fakultas Sains Dan Teknologi Bina Darma (www.javawebmedia.com). Versi demo dapat diakses di website http://comprolaravel8.javawebmedia.com.
- Semoga bermanfaat untuk teman-teman yang sedang belajar.
- Untuk panduan lengkap installasi silakan buka: https://javawebmedia.com/blog/download-source-code-website-company-profile-gratis-dibangun-dengan-laravel-8/
- 
+ Website Company Profile dengan Laravel 8. CMS ini dikembangkan oleh Fakultas Sains Dan Teknologi Bina Darma . 
+ Semoga bermanfaat untuk teman-teman yang sedang belajar. 
  # Server Requirements
  Server Anda harus memenuhi kriteria ini:
 - PHP >= 7.3
@@ -47,5 +45,5 @@ Selanjutnya lakukan konfigurasi file *.env* Anda sesuai dengan data website dan 
  
  # Halaman Administrator
  - Buka alamat: http://localhost/comprolaravel8/login
- - Username: javawebmedia
+ - Username: muhammadarif
  - Password: javawebmedia
