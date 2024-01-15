@@ -1,5 +1,5 @@
-# COMPROLARAVEL8
- Website Company Profile dengan Laravel 8. CMS ini dikembangkan oleh Fakultas Sains Dan Teknologi Bina Darma . 
+# FAKULTAS SAINS DAN TEKNOLOGI
+ Website FAKULTAS SAINS DAN TEKNOLOGI dengan Laravel 8. CMS ini dikembangkan oleh Fakultas Sains Dan Teknologi Bina Darma . 
  Semoga bermanfaat untuk teman-teman yang sedang belajar. 
  # Server Requirements
  Server Anda harus memenuhi kriteria ini:
