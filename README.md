@@ -46,4 +46,5 @@ Selanjutnya lakukan konfigurasi file *.env* Anda sesuai dengan data website dan 
  # Halaman Administrator
  - Buka alamat: http://localhost/fst/login
  - Username: muhammadarif
- - Password: javawebmedia
+ - Password: muhammadarif0912
+   
