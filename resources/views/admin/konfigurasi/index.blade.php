@@ -128,26 +128,7 @@
 </div>
 
 <div class="col-md-6">
-    <h3>Cara Pemesanan Produk</h3><hr>
-    <div class="form-group">
-    <label>Pilih Cara Pemesanan Produk</label>
-    <select name="cara_pesan" class="form-control">
-        <option value="Formulir Pemesanan">Formulir Pemesanan</option>
-        <option value="Keranjang Belanja" <?php if($site->cara_pesan=='Keranjang Belanja') { echo 'selected'; } ?>>Keranjang Belanja</option>
-    </select>
-    </div>
 
-    <h3>Text di bawah peta dan link downloadnya</h3><hr>
-    <div class="form-group">
-    <label>Text bawah peta</label>
-    <input type="text" name="text_bawah_peta" placeholder="Text bawah peta" value="<?php echo $site->text_bawah_peta ?>" class="form-control">
-    </div>
-    
-    <div class="form-group">
-    <label>Link text di bawah peta <i class="fa fa-link"></i></label>
-    <input type="text" name="link_bawah_peta" placeholder="Link text di bawah peta" value="<?php echo $site->link_bawah_peta ?>" class="form-control">
-    </div>
-    
 	<h3>Modul SEO (Search Engine Optimization)</h3><hr>
 	<div class="form-group">
     <label>Keywords (Keyword search for Google, Bing, etc)</label>

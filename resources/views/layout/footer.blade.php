@@ -62,7 +62,7 @@ $nav_layananf = $myprofil->nav_layanan();
       <div class="row footer-copyr">
          <div class="col-md-4 col-sm-4"> <img src="{{ asset('assets/upload/image/'.$site_config->logo) }}" alt="" style="max-height: 50px; width: auto;"> </div>
          <div class="col-md-8 col-sm-8">
-               <p><a target="_blank" href="https://binadarma.ac.id">{{ $site_config->namaweb }}</a></p>
+               <p>Version: 1.0</p>
             </div>
       </div>
    </div>
