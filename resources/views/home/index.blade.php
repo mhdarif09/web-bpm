@@ -26,15 +26,15 @@
                   <div class="col-md-7">
                      <div class="h2-about-txt">
                         <h1>Kata Sambutan Dekan</h1>
-                        <h6> Selamat Datang Di Website Fakultas Sains Dan Teknologi Universitas Bina Darma</h6>
-                        <p>Fakultas Sains dan Teknologi merupakan salah satu fakultas yang berada di bawah naungan Universitas Bina Darma. Fakultas ini memiliki visi untuk menjadi pusat keunggulan dalam pengembangan ilmu pengetahuan dan teknologi yang berkontribusi pada kesejahteraan masyarakat dan lingkungan. Kami berkomitmen untuk memberikan pendidikan berkualitas tinggi dan menghasilkan lulusan yang siap bersaing di dunia kerja global.</p>
+                        <h6> Selamat Datang Di Website Fakultas Pasca Sarjana Universitas Bina Darma</h6>
+                        <p>Fakultas Pasca Sarjana merupakan salah satu fakultas yang berada di bawah naungan Universitas Bina Darma. Fakultas ini memiliki visi untuk menjadi pusat keunggulan dalam pengembangan ilmu pengetahuan dan teknologi yang berkontribusi pada kesejahteraan masyarakat dan lingkungan. Kami berkomitmen untuk memberikan pendidikan berkualitas tinggi dan menghasilkan lulusan yang siap bersaing di dunia kerja global.</p>
 
-                           <p>Terima kasih atas kunjungan Anda di website Fakultas Sains dan Teknologi.</p>
+                           <p>Terima kasih atas kunjungan Anda di website Fakultas Pasca Sarjana.</p>
                            
                            <p>Hormat kami,</p>
                            
                            <p>
-                              Dekan Fakultas Sains dan Teknologi</p>
+                              Dekan Fakultas Pasca Sarjana</p>
                      </div>
                   </div>
                </div>
