@@ -1,5 +1,5 @@
-# FAKULTAS SAINS DAN TEKNOLOGI
- Website FAKULTAS SAINS DAN TEKNOLOGI dengan Laravel 8. CMS ini dikembangkan oleh Fakultas Sains Dan Teknologi Bina Darma . 
+# DIREKTORAT PENJAMIN MUTU BINA DARMA
+ Website DIREKTORAT PENJAMMIN MUTU dengan Laravel 8. CMS ini dikembangkan oleh Fakultas Sains Dan Teknologi Bina Darma . 
  Semoga bermanfaat untuk teman-teman yang sedang belajar. 
  # Server Requirements
  Server Anda harus memenuhi kriteria ini:
@@ -41,10 +41,10 @@ Selanjutnya lakukan konfigurasi file *.env* Anda sesuai dengan data website dan 
 
 # Cara mengakses
  1. Buka browser
- 2. Ketik alamat http://localhost/fst
+ 2. Ketik alamat http://localhost/bpm
  
  # Halaman Administrator
- - Buka alamat: http://localhost/fst/login
+ - Buka alamat: http://localhost/bpm/login
  - Username: muhammadarif
  - Password: muhammadarif0912
    
