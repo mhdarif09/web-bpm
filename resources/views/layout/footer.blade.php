@@ -16,24 +16,18 @@ $nav_layananf = $myprofil->nav_layanan();
             <div class="footer-widget">
                <h3>{{ $site_config->namaweb }}</h3>
                <p>{{ $site_config->deskripsi }}</p>
-               <hr style="border-top: solid thin #EEE;padding:0; margin: 5px 0;">
-               <p><strong>Alamat Kampus:</strong>
-                  <?php echo nl2br($site_config->alamat) ?>
-                  <br><strong>Phone:</strong> {{ $site_config->telepon }}
-                  <br><strong>Fax:</strong> {{ $site_config->fax }}
-                  <br><strong>Email:</strong> {{ $site_config->email }}
             </div>
          </div>
          <!--Footer Widget End--> 
          <!--Footer Widget Start-->
          <div class="col-md-5 col-sm-6">
             <div class="footer-widget">
-               <h3>Prodi</h3>
-               <ul class="lastest-products">
-                  <?php foreach($nav_layananf as $nav_layananf) { ?>
-                  <li>< <strong><a href="#">{{ $nav_layananf->judul_berita }}</a></strong> <span class="pdate"></span> </li>
-                  <?php } ?>
-               </ul>
+               <h3>Alamat Kampus</h3>
+               <p>
+                  <?php echo nl2br($site_config->alamat) ?>
+                  <br><strong>Phone:</strong> {{ $site_config->telepon }}
+                  <br><strong>Fax:</strong> {{ $site_config->fax }}
+                  <br><strong>Email:</strong> {{ $site_config->email }}
             </div>
          </div>
          <!--footer link-->

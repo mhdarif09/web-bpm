@@ -110,20 +110,13 @@
           </li>
 
           <!-- Website Content -->
-          <li class="batas"><hr> <span class="infoku"><i class="fa fa-certificate"></i> Profil &amp; Layanan</span></li>
+          <li class="batas"><hr> <span class="infoku"><i class="fa fa-certificate"></i> Profil </span></li>
           <li class="batas"><hr></li>
 
           <li class="nav-item">
             <a href="{{ asset('admin/konfigurasi/profil') }}" class="nav-link">
               <i class="nav-icon fas fa-leaf"></i>
               <p>Update Profil</p>
-            </a>
-          </li>
-
-          <li class="nav-item">
-            <a href="{{ asset('admin/berita/jenis_berita/Layanan') }}" class="nav-link">
-              <i class="nav-icon fas fa-book"></i>
-              <p>Layanan</p>
             </a>
           </li>
 

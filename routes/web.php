@@ -29,6 +29,9 @@ Route::get('berhasil/{par1}', 'App\Http\Controllers\Home@berhasil');
 Route::get('cetak/{par1}', 'App\Http\Controllers\Home@cetak');
 Route::get('about', 'App\Http\Controllers\Home@about');
 Route::get('staff', 'App\Http\Controllers\Home@staff');
+Route::get('bpmstruktur', 'App\Http\Controllers\Home@strukturbpm');
+Route::get('kebijakanbpm','App\Http\Controllers\Home@kebijakanbpm');
+
 Route::get('aksi', 'App\Http\Controllers\Aksi@index');
 Route::get('aksi/status/{par1}', 'App\Http\Controllers\Aksi@status');
 // Login

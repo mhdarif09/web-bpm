@@ -36,8 +36,7 @@ class Home extends Controller
         return view('layout/wrapper',$data);
     }
 
-    // Homepage
-    public function about()
+    public function strukturbpm()
     {
         $site_config   = DB::table('konfigurasi')->first();
         $news   = new Berita_model();
@@ -53,11 +52,31 @@ class Home extends Controller
                         'berita'    => $berita,
                         'layanan'   => $layanan,
                         'kategori_staff'     => $kategori_staff,
-                        'content'   => 'home/aws'
+                        'content'   => 'home/strukturbpm'
                     );
         return view('layout/wrapper',$data);
     }
+    public function kebijakanbpm()
+    {
+        $site_config   = DB::table('konfigurasi')->first();
+        $news   = new Berita_model();
+        $berita = $news->home();
+        // Staff
+        $kategori_staff  = DB::table('kategori_staff')->orderBy('urutan','ASC')->get();
+        $layanan = DB::table('berita')->where(array('jenis_berita' => 'Layanan','status_berita' => 'Publish'))->orderBy('urutan', 'ASC')->get();
 
+        $data = array(  'title'     => 'Tentang '.$site_config->namaweb,
+                        'deskripsi' => 'Tentang '.$site_config->namaweb,
+                        'keywords'  => 'Tentang '.$site_config->namaweb,
+                        'site_config'      => $site_config,
+                        'berita'    => $berita,
+                        'layanan'   => $layanan,
+                        'kategori_staff'     => $kategori_staff,
+                        'content'   => 'home/kebijakanbpm'
+                    );
+        return view('layout/wrapper',$data);
+    }
+    // Homepage
     public function staff()
     {
         $site_config   = DB::table('konfigurasi')->first();
