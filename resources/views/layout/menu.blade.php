@@ -22,25 +22,28 @@ $nav_materi  = $myprofil->nav_materi();
                    <li class="nav-item dropdown">
                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Profil <span class="pull-right"><i class="fas fa-caret-down"></i></span></a>
                        <ul class="dropdown-menu">
+                           <li><a href="{{ asset('about') }}"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Tentang Kami </a></li>
                            <li><a href="{{ asset('staff') }}"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Staf</a></li>
-                           <li><a href="{{ asset('kebijakanbpm') }}"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Kebijakan Manajemen BPM</a></li>
-
                        </ul>
                    </li>
-
-                     <li class="nav-item dropdown">
-                       <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Informasi <span class="pull-right"><i class="fas fa-caret-down"></i></span></a>
-                       <ul class="dropdown-menu">
-                           <li><a href="{{ asset('bpmstruktur') }}"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Peta Proses</a></li>
-                       </ul>
-                   </li>
-                   {{-- <li class="nav-item dropdown">
-                       <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Informasi <span class="pull-right"><i class="fas fa-caret-down"></i></span></a>
-                       <ul class="dropdown-menu">
-                        <li><a href="{{ asset('bpmstruktur') }}"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Kebijakan Manajemen BPM</a></li>
-                    </ul>
-                   </li>  --}}
                    <li class="nav-item dropdown">
+                       <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Informasi <span class="pull-right"><i class="fas fa-caret-down"></i></span></a>
+                       <ul class="dropdown-menu">
+                           @foreach($nav_berita as $nav)
+                           <li><a href="{{ asset('berita/kategori/'.$nav->slug_kategori) }}"><i class="fa fa-angle-double-right" aria-hidden="true"></i> {{ Str::words($nav->nama_kategori, 4) }}</a></li>
+                           @endforeach
+                       </ul>
+                   </li>
+                   <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Prodi <span class="pull-right"><i class="fas fa-caret-down"></i></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://if.binadarma.ac.id"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Teknik Informatika</a></li>
+                        <li><a href="https://si.binadarma.ac.id"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Sistem Informasi</a></li>
+                        <li><a href="https://in.binadarma.ac.id"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Teknik Industri</a></li>
+                        <li><a href="https://ts.binadarma.ac.id"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Teknik Sipil</a></li>
+                    </ul>
+                </li>
+                
       
       <li class="nav-item dropdown">
          <a class="nav-link dropdown-toggle" href="#"  role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Download <span class="pull-right"><i class="fas fa-caret-down"></i></span></a>
@@ -50,8 +53,12 @@ $nav_materi  = $myprofil->nav_materi();
             <?php } ?>
             <li><a href="{{ asset('download') }}"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Lihat Semua Data</a></li>
          </ul>
+         <li class="nav-item"><a class="nav-link" href="{{ asset('download/kategori/penelitian-dosen') }}">Penelitian</a></li>
 
       </li>
+      <li class="nav-item"> <a class="nav-link" href="{{ asset('video') }}">Video</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="https://www.binadarma.ac.id/pendaftaran/">PPMB</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="{{ asset('kontak') }}">Kontak</a> </li>
    </ul>
 </div>
 </nav>
